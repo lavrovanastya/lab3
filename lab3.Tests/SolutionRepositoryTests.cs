@@ -12,7 +12,7 @@ public class SolutionRepositoryTests
     private SolutionDbContext CreateDbContext()
     {
         var options = new DbContextOptionsBuilder<SolutionDbContext>()
-            .UseNpgsql("Host=localhost;Port=5432;Database=2_lab_test;Username=postgres;Password=glebuxa7980")
+            .UseNpgsql("Host=localhost;Port=5432;Database=2_lab_test;Username=postgres;Password=12345")
             .Options;
 
         var context = new SolutionDbContext(options);
