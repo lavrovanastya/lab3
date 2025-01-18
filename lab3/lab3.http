@@ -1,0 +1,14 @@
+﻿@lab3_HostAddress = http://localhost:5299
+
+GET {{lab3_HostAddress}}/api/Solutions/4
+Accept: application/json
+
+###
+
+POST {{lab3_HostAddress}}/api/Solutions/linear?k=2&b=-7
+Accept: application/json
+
+###
+
+POST {{lab3_HostAddress}}/api/Solutions/quadratic?a=1&b=-4&c=3
+Accept: application/json
